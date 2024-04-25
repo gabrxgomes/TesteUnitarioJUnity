@@ -12,7 +12,7 @@ class TestClass {
         Calculator calc = new Calculator();
         int a = 20;
         int b = 20;
-        int expectedResult = 50; // Esperado resultado da soma de 20 + 20
+        int expectedResult = 40; // Esperado resultado da soma de 20 + 20
         int actualResult = calc.soma(a, b);
         assertEquals(expectedResult, actualResult);
     }
