@@ -13,7 +13,7 @@ public class TestCalculator {
         int b = 20;
         int expectedResult = 40; // Esperado resultado da soma de 20 + 20
         int actualResult = calc.soma(a, b);
-        Assert.assertEquals(50, actualResult);
+        Assert.assertEquals(40, actualResult);
     }
 
 }
